@@ -4,11 +4,15 @@ Một trang tự học Kanji
 
 ### Các tài liệu sử dụng
 
-[Kanji theo bộ thủ - 3 quyển](assets/kanji-theo-bo-full-3q.pdf)
+[Kanji theo bộ thủ - 3 quyển](assets/kanji-theo-bo-full-3q.pdf) - Bạn nên đọc cách học trong cuốn sách này nha
 
 ### Học bộ thủ
 
-... Đang trong quá trình làm
+Có nhiều cách để học khác nhau, học tất cả các cách sau thì càng tốt!
+
+- [Bảng 214 bộ thủ để tham khảo](bai/214-bo-thu.md)
+- [Học 214 bộ thủ thông qua thơ lục bát](bai/tho-bo-thu.md)
+- [Hướng dẫn tự học JLPT từ N5 - N1: Phần Kanji](https://daihocmo.github.io/tieng-nhat/jlpt/) - Có bộ thẻ Anki với bộ thẻ Quizlet đó!
 
 ### Lộ trình hàng ngày
 
@@ -115,22 +119,8 @@ Một trang tự học Kanji
 - [Bài 101](bai/101.md)
 - [Bài 102](bai/102.md)
 
-
-### Cách học
-
-Đọc trong PDF mình để ở trên nha. Cá nhân mình thì sẽ tóm tắt là:
-
-1. Mở bài trong ngày lên
-2. Học từng Kanji một bằng cách bấm vào Kanji (Sẽ chuyển đến Mazii, bạn sẽ tìm hiểu thêm về Hán Tự). Nếu được nên tập viết nha, viết nhiều nhớ nhanh.
-3. Ghi nhớ bằng truyện mình có thể ở cột số 4 (Dùng Anki!!!!).
-
-### Kiểm tra
-
-....
-
-
 ### Credit
 
 Cảm ơn anh Nguyễn Tất Đạt (Tác giả của cuốn Kanji theo bộ ở trên).
 
-À mà cảm ơn ChatGPT vì đống truyện Kanji nữa!
+À mà cảm ơn ChatGPT với Gemini vì đống truyện Kanji nữa. Bản nháp thì sẽ sử dụng truyện đó, còn dần dần khi mình soát lại mình sẽ cập nhật các truyện từ cộng đồng cho dễ nhớ với hay hơn.
