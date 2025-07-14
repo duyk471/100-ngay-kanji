@@ -3,3 +3,8 @@ authors = ["Khanh Duy"]
 language = "en"
 multilingual = false
 src = "src"
+
+
+
+[build]
+build-dir = "public"
