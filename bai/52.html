@@ -1,0 +1,202 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Bài 52</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../index.html"><strong aria-hidden="true">1.</strong> Trang chủ</a></li><li class="chapter-item expanded "><a href="../bo-thu.html"><strong aria-hidden="true">2.</strong> Học bộ thủ</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../bai/214-bo-thu.html"><strong aria-hidden="true">2.1.</strong> Bảng 214 bộ thủ để tham khảo</a></li><li class="chapter-item expanded "><a href="../bai/tho-bo-thu.html"><strong aria-hidden="true">2.2.</strong> Học 214 bộ thủ thông qua thơ lục bát</a></li></ol></li><li class="chapter-item expanded "><a href="../100ngay.html"><strong aria-hidden="true">3.</strong> Lộ trình hàng ngày</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../bai/1.html"><strong aria-hidden="true">3.1.</strong> Bài 1</a></li><li class="chapter-item expanded "><a href="../bai/2.html"><strong aria-hidden="true">3.2.</strong> Bài 2</a></li><li class="chapter-item expanded "><a href="../bai/3.html"><strong aria-hidden="true">3.3.</strong> Bài 3</a></li><li class="chapter-item expanded "><a href="../bai/4.html"><strong aria-hidden="true">3.4.</strong> Bài 4</a></li><li class="chapter-item expanded "><a href="../bai/5.html"><strong aria-hidden="true">3.5.</strong> Bài 5</a></li><li class="chapter-item expanded "><a href="../bai/6.html"><strong aria-hidden="true">3.6.</strong> Bài 6</a></li><li class="chapter-item expanded "><a href="../bai/7.html"><strong aria-hidden="true">3.7.</strong> Bài 7</a></li><li class="chapter-item expanded "><a href="../bai/8.html"><strong aria-hidden="true">3.8.</strong> Bài 8</a></li><li class="chapter-item expanded "><a href="../bai/9.html"><strong aria-hidden="true">3.9.</strong> Bài 9</a></li><li class="chapter-item expanded "><a href="../bai/10.html"><strong aria-hidden="true">3.10.</strong> Bài 10</a></li><li class="chapter-item expanded "><a href="../bai/11.html"><strong aria-hidden="true">3.11.</strong> Bài 11</a></li><li class="chapter-item expanded "><a href="../bai/12.html"><strong aria-hidden="true">3.12.</strong> Bài 12</a></li><li class="chapter-item expanded "><a href="../bai/13.html"><strong aria-hidden="true">3.13.</strong> Bài 13</a></li><li class="chapter-item expanded "><a href="../bai/14.html"><strong aria-hidden="true">3.14.</strong> Bài 14</a></li><li class="chapter-item expanded "><a href="../bai/15.html"><strong aria-hidden="true">3.15.</strong> Bài 15</a></li><li class="chapter-item expanded "><a href="../bai/16.html"><strong aria-hidden="true">3.16.</strong> Bài 16</a></li><li class="chapter-item expanded "><a href="../bai/17.html"><strong aria-hidden="true">3.17.</strong> Bài 17</a></li><li class="chapter-item expanded "><a href="../bai/18.html"><strong aria-hidden="true">3.18.</strong> Bài 18</a></li><li class="chapter-item expanded "><a href="../bai/19.html"><strong aria-hidden="true">3.19.</strong> Bài 19</a></li><li class="chapter-item expanded "><a href="../bai/20.html"><strong aria-hidden="true">3.20.</strong> Bài 20</a></li><li class="chapter-item expanded "><a href="../bai/21.html"><strong aria-hidden="true">3.21.</strong> Bài 21</a></li><li class="chapter-item expanded "><a href="../bai/22.html"><strong aria-hidden="true">3.22.</strong> Bài 22</a></li><li class="chapter-item expanded "><a href="../bai/23.html"><strong aria-hidden="true">3.23.</strong> Bài 23</a></li><li class="chapter-item expanded "><a href="../bai/24.html"><strong aria-hidden="true">3.24.</strong> Bài 24</a></li><li class="chapter-item expanded "><a href="../bai/25.html"><strong aria-hidden="true">3.25.</strong> Bài 25</a></li><li class="chapter-item expanded "><a href="../bai/26.html"><strong aria-hidden="true">3.26.</strong> Bài 26</a></li><li class="chapter-item expanded "><a href="../bai/27.html"><strong aria-hidden="true">3.27.</strong> Bài 27</a></li><li class="chapter-item expanded "><a href="../bai/28.html"><strong aria-hidden="true">3.28.</strong> Bài 28</a></li><li class="chapter-item expanded "><a href="../bai/29.html"><strong aria-hidden="true">3.29.</strong> Bài 29</a></li><li class="chapter-item expanded "><a href="../bai/30.html"><strong aria-hidden="true">3.30.</strong> Bài 30</a></li><li class="chapter-item expanded "><a href="../bai/31.html"><strong aria-hidden="true">3.31.</strong> Bài 31</a></li><li class="chapter-item expanded "><a href="../bai/32.html"><strong aria-hidden="true">3.32.</strong> Bài 32</a></li><li class="chapter-item expanded "><a href="../bai/33.html"><strong aria-hidden="true">3.33.</strong> Bài 33</a></li><li class="chapter-item expanded "><a href="../bai/34.html"><strong aria-hidden="true">3.34.</strong> Bài 34</a></li><li class="chapter-item expanded "><a href="../bai/35.html"><strong aria-hidden="true">3.35.</strong> Bài 35</a></li><li class="chapter-item expanded "><a href="../bai/36.html"><strong aria-hidden="true">3.36.</strong> Bài 36</a></li><li class="chapter-item expanded "><a href="../bai/37.html"><strong aria-hidden="true">3.37.</strong> Bài 37</a></li><li class="chapter-item expanded "><a href="../bai/38.html"><strong aria-hidden="true">3.38.</strong> Bài 38</a></li><li class="chapter-item expanded "><a href="../bai/39.html"><strong aria-hidden="true">3.39.</strong> Bài 39</a></li><li class="chapter-item expanded "><a href="../bai/40.html"><strong aria-hidden="true">3.40.</strong> Bài 40</a></li><li class="chapter-item expanded "><a href="../bai/41.html"><strong aria-hidden="true">3.41.</strong> Bài 41</a></li><li class="chapter-item expanded "><a href="../bai/42.html"><strong aria-hidden="true">3.42.</strong> Bài 42</a></li><li class="chapter-item expanded "><a href="../bai/43.html"><strong aria-hidden="true">3.43.</strong> Bài 43</a></li><li class="chapter-item expanded "><a href="../bai/44.html"><strong aria-hidden="true">3.44.</strong> Bài 44</a></li><li class="chapter-item expanded "><a href="../bai/45.html"><strong aria-hidden="true">3.45.</strong> Bài 45</a></li><li class="chapter-item expanded "><a href="../bai/46.html"><strong aria-hidden="true">3.46.</strong> Bài 46</a></li><li class="chapter-item expanded "><a href="../bai/47.html"><strong aria-hidden="true">3.47.</strong> Bài 47</a></li><li class="chapter-item expanded "><a href="../bai/48.html"><strong aria-hidden="true">3.48.</strong> Bài 48</a></li><li class="chapter-item expanded "><a href="../bai/49.html"><strong aria-hidden="true">3.49.</strong> Bài 49</a></li><li class="chapter-item expanded "><a href="../bai/50.html"><strong aria-hidden="true">3.50.</strong> Bài 50</a></li><li class="chapter-item expanded "><a href="../bai/51.html"><strong aria-hidden="true">3.51.</strong> Bài 51</a></li><li class="chapter-item expanded "><a href="../bai/52.html" class="active"><strong aria-hidden="true">3.52.</strong> Bài 52</a></li><li class="chapter-item expanded "><a href="../bai/53.html"><strong aria-hidden="true">3.53.</strong> Bài 53</a></li><li class="chapter-item expanded "><a href="../bai/54.html"><strong aria-hidden="true">3.54.</strong> Bài 54</a></li><li class="chapter-item expanded "><a href="../bai/55.html"><strong aria-hidden="true">3.55.</strong> Bài 55</a></li><li class="chapter-item expanded "><a href="../bai/56.html"><strong aria-hidden="true">3.56.</strong> Bài 56</a></li><li class="chapter-item expanded "><a href="../bai/57.html"><strong aria-hidden="true">3.57.</strong> Bài 57</a></li><li class="chapter-item expanded "><a href="../bai/58.html"><strong aria-hidden="true">3.58.</strong> Bài 58</a></li><li class="chapter-item expanded "><a href="../bai/59.html"><strong aria-hidden="true">3.59.</strong> Bài 59</a></li><li class="chapter-item expanded "><a href="../bai/60.html"><strong aria-hidden="true">3.60.</strong> Bài 60</a></li><li class="chapter-item expanded "><a href="../bai/61.html"><strong aria-hidden="true">3.61.</strong> Bài 61</a></li><li class="chapter-item expanded "><a href="../bai/62.html"><strong aria-hidden="true">3.62.</strong> Bài 62</a></li><li class="chapter-item expanded "><a href="../bai/63.html"><strong aria-hidden="true">3.63.</strong> Bài 63</a></li><li class="chapter-item expanded "><a href="../bai/64.html"><strong aria-hidden="true">3.64.</strong> Bài 64</a></li><li class="chapter-item expanded "><a href="../bai/65.html"><strong aria-hidden="true">3.65.</strong> Bài 65</a></li><li class="chapter-item expanded "><a href="../bai/66.html"><strong aria-hidden="true">3.66.</strong> Bài 66</a></li><li class="chapter-item expanded "><a href="../bai/67.html"><strong aria-hidden="true">3.67.</strong> Bài 67</a></li><li class="chapter-item expanded "><a href="../bai/68.html"><strong aria-hidden="true">3.68.</strong> Bài 68</a></li><li class="chapter-item expanded "><a href="../bai/69.html"><strong aria-hidden="true">3.69.</strong> Bài 69</a></li><li class="chapter-item expanded "><a href="../bai/70.html"><strong aria-hidden="true">3.70.</strong> Bài 70</a></li><li class="chapter-item expanded "><a href="../bai/71.html"><strong aria-hidden="true">3.71.</strong> Bài 71</a></li><li class="chapter-item expanded "><a href="../bai/72.html"><strong aria-hidden="true">3.72.</strong> Bài 72</a></li><li class="chapter-item expanded "><a href="../bai/73.html"><strong aria-hidden="true">3.73.</strong> Bài 73</a></li><li class="chapter-item expanded "><a href="../bai/74.html"><strong aria-hidden="true">3.74.</strong> Bài 74</a></li><li class="chapter-item expanded "><a href="../bai/75.html"><strong aria-hidden="true">3.75.</strong> Bài 75</a></li><li class="chapter-item expanded "><a href="../bai/76.html"><strong aria-hidden="true">3.76.</strong> Bài 76</a></li><li class="chapter-item expanded "><a href="../bai/77.html"><strong aria-hidden="true">3.77.</strong> Bài 77</a></li><li class="chapter-item expanded "><a href="../bai/78.html"><strong aria-hidden="true">3.78.</strong> Bài 78</a></li><li class="chapter-item expanded "><a href="../bai/79.html"><strong aria-hidden="true">3.79.</strong> Bài 79</a></li><li class="chapter-item expanded "><a href="../bai/80.html"><strong aria-hidden="true">3.80.</strong> Bài 80</a></li><li class="chapter-item expanded "><a href="../bai/81.html"><strong aria-hidden="true">3.81.</strong> Bài 81</a></li><li class="chapter-item expanded "><a href="../bai/82.html"><strong aria-hidden="true">3.82.</strong> Bài 82</a></li><li class="chapter-item expanded "><a href="../bai/83.html"><strong aria-hidden="true">3.83.</strong> Bài 83</a></li><li class="chapter-item expanded "><a href="../bai/84.html"><strong aria-hidden="true">3.84.</strong> Bài 84</a></li><li class="chapter-item expanded "><a href="../bai/85.html"><strong aria-hidden="true">3.85.</strong> Bài 85</a></li><li class="chapter-item expanded "><a href="../bai/86.html"><strong aria-hidden="true">3.86.</strong> Bài 86</a></li><li class="chapter-item expanded "><a href="../bai/87.html"><strong aria-hidden="true">3.87.</strong> Bài 87</a></li><li class="chapter-item expanded "><a href="../bai/88.html"><strong aria-hidden="true">3.88.</strong> Bài 88</a></li><li class="chapter-item expanded "><a href="../bai/89.html"><strong aria-hidden="true">3.89.</strong> Bài 89</a></li><li class="chapter-item expanded "><a href="../bai/90.html"><strong aria-hidden="true">3.90.</strong> Bài 90</a></li><li class="chapter-item expanded "><a href="../bai/91.html"><strong aria-hidden="true">3.91.</strong> Bài 91</a></li><li class="chapter-item expanded "><a href="../bai/92.html"><strong aria-hidden="true">3.92.</strong> Bài 92</a></li><li class="chapter-item expanded "><a href="../bai/93.html"><strong aria-hidden="true">3.93.</strong> Bài 93</a></li><li class="chapter-item expanded "><a href="../bai/94.html"><strong aria-hidden="true">3.94.</strong> Bài 94</a></li><li class="chapter-item expanded "><a href="../bai/95.html"><strong aria-hidden="true">3.95.</strong> Bài 95</a></li><li class="chapter-item expanded "><a href="../bai/96.html"><strong aria-hidden="true">3.96.</strong> Bài 96</a></li><li class="chapter-item expanded "><a href="../bai/97.html"><strong aria-hidden="true">3.97.</strong> Bài 97</a></li><li class="chapter-item expanded "><a href="../bai/98.html"><strong aria-hidden="true">3.98.</strong> Bài 98</a></li><li class="chapter-item expanded "><a href="../bai/99.html"><strong aria-hidden="true">3.99.</strong> Bài 99</a></li><li class="chapter-item expanded "><a href="../bai/100.html"><strong aria-hidden="true">3.100.</strong> Bài 100</a></li><li class="chapter-item expanded "><a href="../bai/101.html"><strong aria-hidden="true">3.101.</strong> Bài 101</a></li><li class="chapter-item expanded "><a href="../bai/102.html"><strong aria-hidden="true">3.102.</strong> Bài 102</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="ngày"><a class="header" href="#ngày">Ngày</a></h1>
+<h2 id="bảng-kanji"><a class="header" href="#bảng-kanji">Bảng Kanji</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Hán tự</th><th>Hán Việt</th><th>Nghĩa của Hán tự</th><th>Truyện để ghi nhớ</th></tr></thead><tbody>
+<tr><td><a href="https://mazii.net/vi-VN/search/kanji/javi/%E7%9D%80">着</a></td><td>TRỨ</td><td>Mặc, đến nơi</td><td><strong>Cừu</strong> (羊) <strong>đến nơi</strong> (着) và <strong>mặc</strong> (衣) quần áo.</td></tr>
+<tr><td><a href="https://mazii.net/vi-VN/search/kanji/javi/%E7%9C%8B">看</a></td><td>KHÁN</td><td>Nhìn, xem</td><td><strong>Mắt</strong> (目) <strong>nhìn</strong> (看) và <strong>tay</strong> (手) cầm.</td></tr>
+<tr><td><a href="https://mazii.net/vi-VN/search/kanji/javi/%E5%B7%AE">差</a></td><td>SAI</td><td>Khác biệt, sai lệch</td><td><strong>Lông</strong> (毛) <strong>khác biệt</strong> (差).</td></tr>
+<tr><td><a href="https://mazii.net/vi-VN/search/kanji/javi/%E7%BE%9E">羞</a></td><td>TU</td><td>Xấu hổ, hổ thẹn</td><td><strong>Cừu</strong> (羊) <strong>xấu hổ</strong> (羞).</td></tr>
+<tr><td><a href="https://mazii.net/vi-VN/search/kanji/javi/%E6%97%85">旅</a></td><td>LỮ</td><td>Du lịch, chuyến đi</td><td><strong>Cờ</strong> (方) và <strong>người</strong> (人) <strong>du lịch</strong> (旅).</td></tr>
+<tr><td><a href="https://mazii.net/vi-VN/search/kanji/javi/%E9%81%8A">遊</a></td><td>DU</td><td>Chơi, dạo chơi</td><td><strong>Đi</strong> (辶) <strong>chơi</strong> (遊) với <strong>trẻ con</strong> (子).</td></tr>
+<tr><td><a href="https://mazii.net/vi-VN/search/kanji/javi/%E6%97%8F">族</a></td><td>TỘC</td><td>Tộc, gia đình</td><td><strong>Cờ</strong> (方) và <strong>mũi tên</strong> (矢) là <strong>gia đình</strong> (族).</td></tr>
+<tr><td><a href="https://mazii.net/vi-VN/search/kanji/javi/%E6%97%8B">旋</a></td><td>TOÀN</td><td>Xoay, quay</td><td><strong>Hướng</strong> (方) <strong>xoay</strong> (旋) vòng tròn.</td></tr>
+<tr><td><a href="https://mazii.net/vi-VN/search/kanji/javi/%E4%BB%96">他</a></td><td>THA</td><td>Khác, khác (người khác)</td><td><strong>Người</strong> (亻) <strong>khác</strong> (他) đi.</td></tr>
+<tr><td><a href="https://mazii.net/vi-VN/search/kanji/javi/%E6%B1%A0">池</a></td><td>TRÌ</td><td>Ao, hồ</td><td><strong>Nước</strong> (氵) trong <strong>ao</strong> (池).</td></tr>
+<tr><td><a href="https://mazii.net/vi-VN/search/kanji/javi/%E5%9C%B0">地</a></td><td>ĐỊA</td><td>Đất, mặt đất</td><td><strong>Đất</strong> (土) <strong>nằm</strong> (也) trên <strong>mặt đất</strong> (地).</td></tr>
+<tr><td><a href="https://mazii.net/vi-VN/search/kanji/javi/%E6%96%BD">施</a></td><td>THI</td><td>Thi hành, ban phát</td><td><strong>Phương</strong> (方) <strong>thi hành</strong> (施) <strong>mũi tên</strong> (也).</td></tr>
+<tr><td><a href="https://mazii.net/vi-VN/search/kanji/javi/%E6%89%93">打</a></td><td>ĐẢ</td><td>Đánh, gõ</td><td><strong>Tay</strong> (扌) <strong>đánh</strong> (打).</td></tr>
+<tr><td><a href="https://mazii.net/vi-VN/search/kanji/javi/%E7%81%AF">灯</a></td><td>ĐĂNG</td><td>Đèn</td><td><strong>Lửa</strong> (火) và <strong>đinh</strong> (丁) là cái <strong>đèn</strong> (灯).</td></tr>
+<tr><td><a href="https://mazii.net/vi-VN/search/kanji/javi/%E9%87%98">釘</a></td><td>ĐINH</td><td>Đinh</td><td><strong>Kim loại</strong> (金) và <strong>đinh</strong> (丁) là cái <strong>đinh</strong> (釘).</td></tr>
+<tr><td><a href="https://mazii.net/vi-VN/search/kanji/javi/%E8%A8%82">訂</a></td><td>ĐÍNH</td><td>Đính chính, sửa chữa</td><td><strong>Lời nói</strong> (言) <strong>đính chính</strong> (訂).</td></tr>
+<tr><td><a href="https://mazii.net/vi-VN/search/kanji/javi/%E9%A0%82">頂</a></td><td>ĐỈNH</td><td>Đỉnh, chóp</td><td><strong>Đầu</strong> (頁) và <strong>đinh</strong> (丁) là <strong>đỉnh</strong> (頂).</td></tr>
+<tr><td><a href="https://mazii.net/vi-VN/search/kanji/javi/%E4%BB%A3">代</a></td><td>ĐẠI</td><td>Thay thế, thế hệ</td><td><strong>Người</strong> (人) <strong>thay thế</strong> (代) <strong>cái</strong> (戈) đó.</td></tr>
+<tr><td><a href="https://mazii.net/vi-VN/search/kanji/javi/%E8%A2%8B">袋</a></td><td>ĐẠI</td><td>Túi, bao</td><td><strong>Quần áo</strong> (衣) và <strong>đại</strong> (代) diện là cái <strong>túi</strong> (袋).</td></tr>
+<tr><td><a href="https://mazii.net/vi-VN/search/kanji/javi/%E8%B2%B8">貸</a></td><td>THẢI</td><td>Cho vay</td><td><strong>Tiền</strong> (貝) <strong>cho vay</strong> (貸).</td></tr>
+<tr><td><a href="https://mazii.net/vi-VN/search/kanji/javi/%E4%BC%90">伐</a></td><td>PHẠT</td><td>Chặt (cây), đánh</td><td><strong>Người</strong> (亻) <strong>chặt</strong> (伐) cây (戈).</td></tr>
+<tr><td><a href="https://mazii.net/vi-VN/search/kanji/javi/%E9%96%A5">閥</a></td><td>PHIỆT</td><td>Gia đình quyền thế, bè phái</td><td><strong>Cửa</strong> (門) của <strong>gia đình quyền thế</strong> (閥).</td></tr>
+</tbody></table>
+</div>
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../bai/51.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../bai/53.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../bai/51.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../bai/53.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>
